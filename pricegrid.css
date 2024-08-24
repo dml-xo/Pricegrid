@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 1rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #e6eff6;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+}
+
+.top {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 2rem 6rem 4rem 3rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 900px;
+}
+
+.box1 {
+  width: 100%;
+  max-width: 450px;
+  background-color: #2bb3b1;
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-bottom-left-radius: 10px;
+}
+
+.box2 {
+  width: 100%;
+  max-width: 450px;
+  background-color: #4abebd;
+  padding: 3em;
+  border-bottom-right-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  color: #d4d8e0;
+  padding-top: 25px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+h2 {
+  color: #f7fafa;
+}
+
+h1 {
+  color: #2bb3b1;
+  font-weight: 500;
+}
+
+.h2i {
+  color: #d1e76a;
+}
+
+.p1 {
+  color: #d4d8e0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.p2 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+span {
+  color: #d4d8e0;
+  font-size: 20px;
+}
+
+.sub {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.p3 {
+  color: #f7fafa;
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #bfdf32;
+  border-radius: 8px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #c4c4cc;
+  transition: 0.5s ease;
+}
+
+@media screen and (max-width: 818px) {
+  section {
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .top {
+    max-width: 100%;
+    padding: 2rem;
+  }
+
+  .bottom {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .box1 {
+    max-width: 100%;
+    border-bottom-left-radius: 0;
+    padding: 2rem;
+  }
+
+  .box2 {
+    max-width: 100%;
+    border-radius: 0 0 10px 10px;
+    padding: 2rem;
+  }
+}
